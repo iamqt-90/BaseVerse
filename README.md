@@ -31,3 +31,33 @@ can be browsed or traded on a built-in marketplace.
 
 ## 🗂️ Project Structure
 
+1. User Input
+   Frontend takes a dream or prompt from the user and sends it to FastAPI backend via REST endpoint.
+
+2. AI Generation (AgentKit)
+   Backend sends the prompt to AgentKit → gets back a media file (image, audio, or video).
+
+3. Media Upload (IPFS/Pinata)
+   The generated media is uploaded to IPFS via Pinata → returns a content hash (CID).
+
+5. Metadata Creation
+   Create an NFT metadata JSON with media link, title, and description.
+
+6. NFT Minting (Web3)
+   Use Web3.py to call a smart contract on Ethereum or Polygon, mint the NFT using metadata URI.
+
+7. Database Logging
+   Store metadata, user info, and minted token ID into MongoDB.
+
+8. Frontend Display
+   Show the minted NFT, status, and transaction hash back to the user.
+
+#System Architecture:
+![image](https://github.com/user-attachments/assets/8ec5272a-1528-4be9-8867-e4ee882c56e2)
+
+#DFD:
+![image](https://github.com/user-attachments/assets/1a404b28-98bc-4965-a174-9363cfd423d1)
+
+
+
+
