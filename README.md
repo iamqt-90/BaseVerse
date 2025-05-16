@@ -21,7 +21,7 @@ can be browsed or traded on a built-in marketplace.
 | Layer        | Technology                          |
 |--------------|-------------------------------------|
 | Backend API  | FastAPI (Python)                    |
-| Database     | MongoDB (Beanie ODM)                |
+| Database     | SupaBase                |
 | AI Engine    | AgentKit                            |
 | Blockchain   | Web3.py + NFT.Storage/IPFS          |
 | Frontend     | React/Next.js (external repo)       |
