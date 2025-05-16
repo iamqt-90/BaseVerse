@@ -1,0 +1,78 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        mediumblue: {
+          "100": "#4318d1",
+          "200": "#2a00bd",
+        },
+        ghostwhite: "#f8f9ff",
+        dimgray: "#666",
+        aliceblue: "#f0f4ff",
+        gray: {
+          "100": "#1a1a1a",
+          "200": "#07001d",
+          "300": "rgba(255, 255, 255, 0.9)",
+        },
+        seagreen: "#2e8b57",
+        gold: "#ffd700",
+        lavender: {
+          "100": "#f3efff",
+          "200": "#e8f0ff",
+          "300": "#e1e8ff",
+        },
+        orangered: "#ff4318",
+        darkslategray: "#444",
+        midnightblue: {
+          "100": "#180d41",
+          "200": "#0e0037",
+          "300": "#00004a",
+          "400": "rgba(0, 0, 74, 0.96)",
+        },
+        honeydew: "#f4fff0",
+        lavenderblush: "#fff0f4",
+        black: "#000",
+        plum: "#cfc2ff",
+        mediumslateblue: "#9475f9",
+        gainsboro: "#dedede",
+        darkgray: "#999",
+        lightgray: "#cdcdcd",
+      },
+      fontFamily: {
+        inter: "Inter",
+        archivo: "Archivo",
+      },
+      borderRadius: {
+        sm: "14px",
+        "26843481xl": "26843500px",
+        "3xs-1": "9.1px",
+        "30388847xl": "30388866px",
+        "lg-1": "18.1px",
+        "sm-6": "13.6px",
+        "24xl": "43px",
+      },
+    },
+    fontSize: {
+      xs: "12px",
+      sm: "14px",
+      mini: "15px",
+      base: "16px",
+      "5xl": "24px",
+      lg: "18px",
+      "17xl": "36px",
+      "base-8": "15.8px",
+      mid: "17px",
+      "lg-1": "18.1px",
+      "17xl-2": "36.2px",
+      xl: "20px",
+      "51xl": "70px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
