@@ -39,7 +39,7 @@
   "eslintConfig": {
     "root": true
   },
-  "name": "dreamjournel",
+  "name": "dreamscape",
   "private": true,
   "scripts": {
     "build": "tsc && vite build",
